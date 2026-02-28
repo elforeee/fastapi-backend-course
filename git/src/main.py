@@ -109,7 +109,9 @@ def main():
             else:
                 print("Книга с таким названием не найдена.")
 
-        elif choice == '4':
+
+
+        elif choice == '4'   :
             print("\nПоиск книг:")
             keyword = input("Введите ключевое слово для поиска (в названии или авторе): ").strip()
             found_books = search_books(books, keyword)
